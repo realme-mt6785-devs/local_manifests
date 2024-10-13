@@ -6,5 +6,5 @@
   <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" revision="lineage-21" />
   <project path="kernel/realme/mt6785" name="realme-mt6785-devs/android_kernel_realme_mt6785" revision="lineage-21" />
   <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" revision="lineage-21" />
-  <project path="vendor/realme/RM6785-common" name="realme-mt6785-devs/proprietary_vendor_RM6785-common" revision="lineage-21" />
+  <project path="vendor/realme/RM6785-common" name="realme-mt6785-devs/proprietary_vendor_realme_RM6785-common" revision="lineage-21" />
 </manifest>
