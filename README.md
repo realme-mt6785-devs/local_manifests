@@ -1,8 +1,10 @@
 ## Additional patches required over AOSP
 
-### build/soong
-- [Add exported-to-kati namespaces to root namespace](https://review.lineageos.org/c/LineageOS/android_build_soong/+/335538)
+### system/fs_mgr
+- [libfs_avb: Allow LKs patched with fenrir to boot on AOSP](https://github.com/realme-mt6785-devs/android_system_fs_fs_mgr/commit/116417ea413979220ceea05c060827d525e98dc9)
+- [libfs_avb: Add guard to verified_boot_state check](https://github.com/realme-mt6785-devs/android_system_fs_fs_mgr/commit/81051d8fc77267dd5689617bd86ffc9e8d99a1cd)
 
-### frameworks/base
-- [Biometrics: Allow disabling of fingerprint cleanups](https://github.com/AOSP-XIII/frameworks_base/commit/ada64b488725c66f948221a3b9403f2b5f040a43)
-- [AuthService: Add support for workaround side fps props](https://github.com/AOSP-XIII/frameworks_base/commit/cc8546c540f742c62e470129abb1eb040948dc1d)
+### system/core
+- [fastbootd: Always return false for GetDeviceLockStatus()](https://github.com/realme-mt6785-devs/android_system_core/commit/ab6e09adbc1b3fa7d762ffb04d106be840965103)
+
+These patches are needed for **Kaeru LK** to boot.
